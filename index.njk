@@ -7,6 +7,8 @@ layout: layouts/home.njk
   <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 -->
 
+<h1>Become expensive to tyranny.</h1>
+
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
