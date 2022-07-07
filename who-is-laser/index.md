@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Who is Laser?
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Who is Laser?
   order: 3
 ---
 
