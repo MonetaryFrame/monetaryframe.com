@@ -2,26 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://monetaryframe.com/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://monetaryframe.com/</loc>
     <lastmod>2022-07-07</lastmod>
   </url>
@@ -42,27 +22,22 @@
   </url>
   
   <url>
-    <loc>https://monetaryframe.com/tags/another-tag/</loc>
+    <loc>https://monetaryframe.com/tags/masculineframe/</loc>
     <lastmod>2022-07-07</lastmod>
   </url>
   
   <url>
-    <loc>https://monetaryframe.com/tags/second-tag/</loc>
-    <lastmod>2022-07-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/tags/number-2/</loc>
-    <lastmod>2022-07-07</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/tags/posts-with-two-tags/</loc>
+    <loc>https://monetaryframe.com/tags/greatreset/</loc>
     <lastmod>2022-07-07</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/who-is-laser/</loc>
     <lastmod>2022-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://monetaryframe.com/posts/a-man-must-write/</loc>
+    <lastmod>2022-07-10</lastmod>
   </url>
 </urlset>
