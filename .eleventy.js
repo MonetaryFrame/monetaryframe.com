@@ -12,6 +12,9 @@ module.exports = function(eleventyConfig) {
   // maintain CNAME for monetaryframe.com
   eleventyConfig.addPassthroughCopy("CNAME");
 
+  // maintain robots.txt for search engines
+  eleventyConfig.addPassthroughCopy("robots.txt");
+
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
