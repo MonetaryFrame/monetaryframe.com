@@ -22,11 +22,6 @@
   </url>
   
   <url>
-    <loc>https://monetaryframe.com/about/</loc>
-    <lastmod>2022-07-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://monetaryframe.com/posts/</loc>
     <lastmod>2022-07-07</lastmod>
   </url>
@@ -63,6 +58,11 @@
   
   <url>
     <loc>https://monetaryframe.com/tags/posts-with-two-tags/</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://monetaryframe.com/who-is-laser/</loc>
     <lastmod>2022-07-07</lastmod>
   </url>
 </urlset>
