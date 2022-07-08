@@ -254,3 +254,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+/* Thicken up framing */
+.tmpl-home {
+  padding: 2rem;
+}
+header {
+  padding: 1rem;
+}
