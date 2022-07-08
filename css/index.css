@@ -256,7 +256,7 @@ a[href].direct-link:focus:visited,
 }
 
 /* Thicken up framing */
-.tmpl-home {
+main {
   padding: 2rem;
 }
 header {
