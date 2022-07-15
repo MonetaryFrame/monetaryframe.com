@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://monetaryframe.com/essays/a-man-must-write/</loc>
+    <lastmod>2022-07-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://monetaryframe.com/recommendations/books/unvaccinated/</loc>
+    <lastmod>2022-07-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://monetaryframe.com/essays/</loc>
+    <lastmod>2022-07-15</lastmod>
+  </url>
+  
+  <url>
     <loc>https://monetaryframe.com/</loc>
-    <lastmod>2022-07-08</lastmod>
+    <lastmod>2022-07-15</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/page-list/</loc>
-    <lastmod>2022-07-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/posts/</loc>
-    <lastmod>2022-07-08</lastmod>
+    <lastmod>2022-07-15</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/tags/</loc>
-    <lastmod>2022-07-08</lastmod>
+    <lastmod>2022-07-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://monetaryframe.com/tags/vaccines/</loc>
+    <lastmod>2022-07-15</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/tags/masculineframe/</loc>
-    <lastmod>2022-07-08</lastmod>
+    <lastmod>2022-07-15</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/tags/greatreset/</loc>
-    <lastmod>2022-07-08</lastmod>
+    <lastmod>2022-07-15</lastmod>
   </url>
   
   <url>
     <loc>https://monetaryframe.com/who-is-laser/</loc>
-    <lastmod>2022-07-08</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://monetaryframe.com/posts/a-man-must-write/</loc>
-    <lastmod>2022-07-10</lastmod>
+    <lastmod>2022-07-15</lastmod>
   </url>
 </urlset>

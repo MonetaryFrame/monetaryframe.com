@@ -50,12 +50,12 @@ p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li,
+.tmpl-essay li,
 img {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
-.tmpl-post li {
+.tmpl-essay li {
   line-height: 1.45;
 }
 
@@ -146,51 +146,51 @@ code {
   text-decoration: underline;
 }
 
-/* Posts list */
-.postlist {
+/* essays list */
+.essaylist {
   list-style: none;
   padding: 0;
 }
-.postlist-item {
+.essaylist-item {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item:before {
+.essaylist-item:before {
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
 }
-.postlist-date,
-.postlist-item:before {
+.essaylist-date,
+.essaylist-item:before {
   font-size: 0.8125em; /* 13px /16 */
   color: var(--color-gray-90);
 }
-.postlist-date {
+.essaylist-date {
   word-spacing: -0.5px;
 }
-.postlist-link {
+.essaylist-link {
   padding-left: .25em;
   padding-right: .25em;
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
 }
-.postlist-item-active .postlist-link {
+.essaylist-item-active .essaylist-link {
   font-weight: bold;
 }
-.tmpl-home .postlist-link {
+.tmpl-home .essaylist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
 }
 
 
 /* Tags */
-.post-tag {
+.essay-tag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -206,15 +206,15 @@ code {
   text-decoration: none;
   line-height: 1.8;
 }
-a[href].post-tag,
-a[href].post-tag:visited {
+a[href].essay-tag,
+a[href].essay-tag:visited {
   color: inherit;
 }
-a[href].post-tag:hover,
-a[href].post-tag:focus {
+a[href].essay-tag:hover,
+a[href].essay-tag:focus {
   background-color: var(--color-gray-20);
 }
-.postlist-item > .post-tag {
+.essaylist-item > .essay-tag {
   align-self: center;
 }
 
