@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
+layout: layouts/essay.njk
 title: Who is Laser?
-templateClass: tmpl-post
+templateClass: tmpl-essay
 eleventyNavigation:
   key: Who is Laser?
   order: 3

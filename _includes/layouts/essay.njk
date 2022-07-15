@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-essay
+---
+<h1>{{ title }}</h1>
+
+<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{%- for tag in tags | filterTagList %}
+{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl | url }}" class="essay-tag">{{ tag }}</a>
+{%- endfor %}
+
+{{ content | safe }}
+
+{%- if collections.essays %}
+{%- set nextessay = collections.essays | getNextCollectionItem(page) %}
+{%- set previousessay = collections.essays | getPreviousCollectionItem(page) %}
+{%- if nextessay or previousessay %}
+<hr>
+<ul>
+  {%- if nextessay %}<li>Next: <a href="{{ nextessay.url | url }}">{{ nextessay.data.title }}</a></li>{% endif %}
+  {%- if previousessay %}<li>Previous: <a href="{{ previousessay.url | url }}">{{ previousessay.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+{%- endif %}

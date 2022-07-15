@@ -1,0 +1,12 @@
+<ol reversed class="essaylist" style="counter-reset: start-from {{ (essayslistCounter or essayslist.length) + 1 }}">
+{% for essay in essayslist | reverse %}
+  <li class="essaylist-item{% if essay.url == url %} essaylist-item-active{% endif %}">
+    <a href="{{ essay.url | url }}" class="essaylist-link">{% if essay.data.title %}{{ essay.data.title }}{% else %}<code>{{ essay.url }}</code>{% endif %}</a>
+    <time class="essaylist-date" datetime="{{ essay.date | htmlDateString }}">{{ essay.date | readableDate }}</time>
+    {% for tag in essay.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="essay-tag">{{ tag }}</a>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ol>

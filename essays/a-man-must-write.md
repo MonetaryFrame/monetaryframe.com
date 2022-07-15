@@ -1,11 +1,11 @@
 ---
 title: "A Man Must Write: The Way Through Pathological Progressivism"
-description: This is a post on My Blog about agile frameworks.
+description: This is a essay on My Blog about agile frameworks.
 date: 2022-07-10
 tags:
   - "#MasculineFrame"
   - "#GreatReset"
-layout: layouts/post.njk
+layout: layouts/essay.njk
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
